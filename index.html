@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>ola mundo</h1>
-</body>
+    <title>Meu Site Estático</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site Estático</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Este é um exemplo de site estático criado com HTML, CSS e JavaScript.</p>
+      </section>
+      <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+          <li>Web design</li>
+          <li>Desenvolvimento web</li>
+          <li>Hospedagem de sites</li>
+        </ul>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Bruno Ragner. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
