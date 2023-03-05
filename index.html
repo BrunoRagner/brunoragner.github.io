@@ -1,73 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Meu portfólio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="banner">
-        <h1>Bem-vindo ao meu portfólio</h1>
-        <p>Aqui você encontra meus trabalhos e projetos</p>
-      </section>
-      <section id="sobre">
-        <h2>Sobre mim</h2>
-        <p>Eu sou um desenvolvedor web apaixonado por criar coisas novas e resolver problemas. Com experiência em HTML, CSS, JavaScript e PHP, busco sempre aprender mais e me atualizar com as novas tecnologias.</p>
-      </section>
-      <section id="portifolio">
-        <h2>Meu portfólio</h2>
-        <ul>
-          <li>
-            <a href="#">
-              <img src="imagem1.jpg">
-              <h3>Projeto 1</h3>
-              <p>Descrição do projeto 1</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="imagem2.jpg">
-              <h3>Projeto 2</h3>
-              <p>Descrição do projeto 2</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="imagem3.jpg">
-              <h3>Projeto 3</h3>
-              <p>Descrição do projeto 3</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section id="contato">
-        <h2>Entre em contato</h2>
-        <form action="#" method="post">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required>
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required>
-          <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" required></textarea>
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 Meu portfólio</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Bem-vindo ao Meu Site</h1>
+      <p>Este é o melhor lugar para encontrar informações sobre nossos serviços.</p>
+      <a href="#" class="btn">Saiba Mais</a>
+    </section>
+    <section>
+      <h2>Nossos Serviços</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>Desenvolvimento Web</li>
+        <li>SEO</li>
+        <li>E-commerce</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
-
